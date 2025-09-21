@@ -1,4 +1,4 @@
-# Project Name Mission 3 Front End React
+# Mission 3 Front End React
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=zustand&logoColor=white)
