@@ -1,12 +1,25 @@
-# React + Vite
+# Project Name Mission 3 Front End React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=zustand&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Currently, two official plugins are available:
+Aplikasi web front-end berintegerasi dengan API yang dirancang untuk memungkinkan pengguna mengelola informasi profil mereka secara efisien. Proyek ini mendemonstrasikan implementasi operasi CRUD (Create, Read, Update, Delete) pada data pengguna melalui antarmuka yang bersih dan responsif.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fitur Utama
 
-## Expanding the ESLint configuration
+-   **API Dinamis**
+-   **Manajemen Profil**: Pengguna dapat melihat dan memperbarui informasi pribadi mereka seperti nama, email, dan nomor telepon.
+-   **Pembaruan Data**: Fungsionalitas untuk menyimpan perubahan data pengguna ke server melalui panggilan API (PUT request).
+-   **Hapus Akun**: Pengguna memiliki opsi untuk menghapus akun mereka secara permanen setelah konfirmasi.
+-   **Daftar Peserta**: Fitur untuk menampilkan daftar semua nama pengguna yang terdaftar di dalam sistem, diambil dari API.
+-   **Manajemen State**: Menggunakan Zustand untuk manajemen state global yang efisien, khususnya untuk data autentikasi dan informasi pengguna.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Teknologi yang Digunakan
+
+-   **[React.js](https://reactjs.org/)**: Library JavaScript untuk membangun antarmuka pengguna yang interaktif.
+-   **[Zustand](https://github.com/pmndrs/zustand)**: Solusi manajemen state yang minimalis dan cepat untuk React.
+-   **[Axios](https://axios-http.com/)**: HTTP client berbasis Promise untuk melakukan interaksi dengan API eksternal.
+-   **[React Router DOM](https://reactrouter.com/)**: Untuk menangani routing di sisi klien.
+-   **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS utility-first untuk desain antarmuka yang cepat dan kustom.
